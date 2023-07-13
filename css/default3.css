@@ -1,0 +1,83 @@
+.aside aside{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    background-color: #fff;
+    height: inherit;
+}
+.existBlock{
+    background-color: #4D4D4D;
+    width: 300px;
+    height: 180px;
+}
+.shortcut{
+    width: 76%;
+    text-align: center;
+    margin: -68px auto 0;
+}
+.shortcut .header {
+    background-color: transparent;
+}
+.shortcut .header a{
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    overflow: hidden;
+    background-color: #88acdb;
+}
+.shortcut h1.myname{
+    font-family: Roboto,serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #696969;
+    padding: 4px;
+    margin: 25px 0 29px;
+}
+.shortcut .mybelief{
+    font-family: lucida sans unicode,sans-serif;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    line-height: 25px;
+}
+.shortcut .myhome{
+    padding: 65px;
+}
+.shortcut .myhome a{
+    font-size: 14px;
+    color: #8b8888;
+    text-decoration: none;
+}
+.shortcut .myhome a:hover{
+    color: #B4A5AF;
+}
+.shortcut .social{
+    margin-top: 50px;
+}
+.shortcut .social a{
+    display: inline-block;
+    margin: 0 6px;
+    text-decoration:none;
+}
+/* .shortcut .social .icon{
+    
+
+}
+.shortcut .social .icon:hover{
+    cursor: pointer;
+} */
+.main .myrscard{
+    margin: 30px;
+    min-height: 90%;
+    background-color: #fff;
+}
+.main .myrscard::before{
+    display: inline-block;
+    position: absolute;
+    top:31px;
+    left:31px;
+    content: "";
+    height: 81px;
+    border-left: 5px solid #4d4d4d;
+}

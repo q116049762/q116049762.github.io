@@ -1,0 +1,84 @@
+.aside aside{
+    overflow: hidden;
+    background-color: #fff;
+    width: 300px;
+    height: 0;
+}
+.existBlock{
+    width: 300px;
+    height: 180px;
+}
+.shortcut{
+    width: 76%;
+    text-align: center;
+    margin: 0px auto 0;
+}
+.shortcut .header {
+    background-color: transparent;
+}
+#myportrait{
+    width: 114px;
+    height: 0;
+}
+.shortcut .header a{
+    display: none;
+    width: 128px;
+    height: 128px;
+    border-radius: 0%;
+    border: 0px solid #fff;
+    overflow: hidden;
+    background-color: transparent;
+}
+.shortcut h1.myname{
+    font-family: Roboto,serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: transparent;
+    padding: 4px;
+    margin: 25px 0 29px;
+}
+.shortcut .mybelief{
+    font-family: lucida sans unicode,sans-serif;
+    color: transparent;
+    font-size: 14px;
+    line-height: 25px;
+}
+.shortcut .myhome{
+    padding: 0px;
+}
+.shortcut .myhome a{
+    font-size: 14px;
+    color: transparent;
+}
+.shortcut .myhome a:hover{
+    color: #B4A5AF;
+}
+.shortcut .social{
+    opacity: 0;
+    margin-top: 0px;
+}
+.shortcut .social a{
+    display: inline-block;
+    margin: 0 0px;
+    text-decoration:none;
+}
+
+.main .myrscard{
+    display: none;
+    margin: 0px;
+    height: 0%;
+    background-color: #fff;
+}
+.main .myrscard::before{
+    display: inline-block;
+    position: absolute;
+    top:31px;
+    left:31px;
+    content: "";
+    height: 81px;
+    border-left: 5px solid #4d4d4d;
+}
+.main .myrscard #markdownRs{
+    height: 100%;
+    overflow: auto;
+}
